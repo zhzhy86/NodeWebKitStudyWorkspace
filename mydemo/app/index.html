@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>测试</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="./js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="native-api.js"></script>
+<script type="text/javascript">
+<!--
+	//window.location = 'http://www.so.com';
+//-->
+</script>
+</head>
+<body>
+	<!--<iframe id="myif" src="http://www.so.com" width="100%" height="100%"></iframe>-->
+	<section>
+		<h2>Native api</h2>
+		<p>
+			<button type="button" value="" onclick="navite.minimize()">
+				最小化窗口
+			</button>
+		</p>
+		<p>
+			<button type="button" value="" onclick="navite.listenMinimize()">
+				监听最小化窗口事件
+			</button>
+			<button type="button" value="" onclick="navite.cancelMinimize()">
+				取消最小化窗口事件的监听
+			</button>
+		</p>
+		<p>
+			<button type="button" value="" onclick="navite.listenClose()">
+				监听关闭窗口事件
+			</button>
+			<button type="button" value="" onclick="navite.cancelClose()">
+				取消关闭窗口事件的监听
+			</button>
+		</p>
+		<p>
+			<button type="button" value="" onclick="navite.newWin()">
+				打开新窗口
+			</button>
+			<button type="button" value="" onclick="navite.closeWin()">
+				关闭当前窗口
+			</button>
+		</p>
+		<p>
+			<button type="button" value="" onclick="navite.createContextMenu()">
+				创建右键菜单
+			</button>
+			<button type="button" value="" onclick="navite.createTrayMenu()">
+				创建系统托盘
+			</button>
+		</p>
+		<p>
+			<input type="text" id="copyText" value="修改这里的文本"/>
+			<button type="button" value="" onclick="navite.copyText()">复制</button>	
+		</p>
+	</section>
+</body>
+</html>
