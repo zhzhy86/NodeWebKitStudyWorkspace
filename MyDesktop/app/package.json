@@ -1,0 +1,11 @@
+{
+  "name": "我的桌面",
+  "main": "index.html",  
+  "window": {
+	"fullscreen": true, // 全屏，没有按钮
+	"icon": "app.ico",
+	"width" 	: 800,
+	"height"	: 400,
+	"toolbar"	: false
+  }
+}
